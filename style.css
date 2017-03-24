@@ -1,0 +1,38 @@
+body{
+    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif; 
+    font-size: 80%;
+}
+
+.container{
+    margin: 0;
+    width: 80%;
+}
+
+.accordionItem h2{ 
+    background-color: #144C8C;
+    border-bottom: 1px solid #66d;
+    color: #FFFFFF;
+    font-size: 1.1em;
+    margin: 0; 
+    padding: 0.4em;   
+}
+
+.accordionItem h2:hover{ 
+    cursor: pointer; 
+}
+
+.accordionItem div{ 
+    background-color: #EEF; 
+    border-bottom: 1px solid #66d;
+    margin: 0; 
+    padding: 1em 0.4em;  
+}
+
+.accordionItem.hide h2{ 
+    background-color: #88F;
+    color: #000;
+}
+
+.accordionItem.hide{ 
+    display: none; 
+}
